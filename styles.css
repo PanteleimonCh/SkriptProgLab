@@ -1,0 +1,67 @@
+/* Bendri dokumento kūno stiliai */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Sekcijų antraščių stiliai */
+h1 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Sąrašo su faktų stilius */
+#facts ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#facts li {
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Vaizdo ir garso medžiagų stiliai, kad jos būtų pritaikytos ekrano dydžiui */
+video, audio {
+    width: 100%;
+    height: auto;
+}
+
+/* Nuotraukų ir jų aprašymų stiliai */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.figure-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.figure-caption {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* YouTube vaizdo įrašų stiliai, kad jie būtų pritaikyti ekrano dydžiui */
+iframe {
+    max-width: 100%;
+    border: none;
+}
+
+/* Stiliai pritaikomi ekrano dydžiui iki 768 pikselių plotį */
+@media (max-width: 768px) {
+    /* Stiliai, kurie bus taikomi ekranams, mažesniems nei 768 pikseliai */
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .figure-img {
+        float: none;
+        margin-right: 0;
+    }
+}
