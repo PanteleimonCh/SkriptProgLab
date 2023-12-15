@@ -1,0 +1,6 @@
+@media print {
+    .print-button {
+        display: none; /* Hide the print button when printing */
+    }
+    /* Add other styles here to make sure images, texts, and tables are optimized for printing */
+}
