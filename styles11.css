@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Стили для заголовка (header) и навигационной панели */
+header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cce5ff;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #6c757d;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Социальные иконки */
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #007bff;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+/* Стили текста */
+h1, p {
+    font-weight: normal;
+}
+
+p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Стили таблицы */
+.table .thead-dark th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+}
